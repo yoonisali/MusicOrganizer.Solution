@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ProjectName // Change project name!
+namespace MusicOrganizer 
 {
   class Program
   {

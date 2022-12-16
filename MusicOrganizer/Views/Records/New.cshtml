@@ -1,0 +1,13 @@
+@{
+  Layout = "_Layout";
+}
+
+<h3>Add a new record to @Model.ArtistName</h3>
+<form action="/artists/@Model.Id/records" method="post">
+  <label for="record"></label>
+  <input id="record" name="record" placeholder="Record Name" type="text">
+  <button type="submit">Add Record!</button>
+</form>
+
+<p><a href="/">Back home</a></p>
+<p><a href="/artists">Back to artists.</a></p>
